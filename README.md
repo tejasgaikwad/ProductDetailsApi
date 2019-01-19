@@ -13,10 +13,11 @@ Instructions :
 4. To run the project, click run as java application rom eclipse or execute java -jar ProductDetails-0.0.1-SNAPSHOT.jar from cmd.
 
 
-Source code details:
-Application's main class is com.springboot.productDetails.ProductDetailsApp.java.
-Static data(Color code + RGB values) placed in ProductDetails.properties under resources folder.
-Error handling done using @ErrorHandler in spring framework.
-Test cases are under src/test/java folder.
+Source code details :
+
+1. Application's main class is com.springboot.productDetails.ProductDetailsApp.java.
+2. Static data(Color code + RGB values) placed in ProductDetails.properties under resources folder.
+3. Error handling done using @ErrorHandler in spring framework in the Controller + ControllerAdvice.
+3. Test cases are under src/test/java folder.
 
 
