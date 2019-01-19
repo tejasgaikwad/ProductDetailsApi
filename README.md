@@ -14,7 +14,7 @@ Instructions :
 
 
 Source code details:
-Application's main class is com.springboot.productDetails.ProductDetailsApp.java
+Application's main class is com.springboot.productDetails.ProductDetailsApp.java.
 Static data(Color code + RGB values) placed in ProductDetails.properties under resources folder.
 Error handling done using @ErrorHandler in spring framework.
 Test cases are under src/test/java folder.
