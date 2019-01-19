@@ -1,0 +1,13 @@
+com\springboot\productDetails\ProductDetailsController.class
+com\springboot\productDetails\ProductDetailsExceptionHandler.class
+com\springboot\productDetails\utils\ProductDetailsConstants.class
+com\springboot\productDetails\beans\Price$Now.class
+com\springboot\productDetails\beans\Response.class
+com\springboot\productDetails\beans\Price.class
+com\springboot\productDetails\beans\ColorSwatches.class
+com\springboot\productDetails\ProductDetailsApp.class
+com\springboot\productDetails\beans\ErrorDetails.class
+com\springboot\productDetails\service\ProductDetailsServiceImpl.class
+com\springboot\productDetails\beans\Products.class
+com\springboot\productDetails\CustomErrorController.class
+com\springboot\productDetails\service\ProductDetailsService.class
