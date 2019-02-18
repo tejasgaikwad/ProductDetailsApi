@@ -21,3 +21,11 @@ Source code details :
 3. Test cases are under src/test/java folder.
 
 
+Testing API in browser :
+In your browser type below url to check the API. If you see json data, you have succesfully started the project.
+http://localhost:8080//v1/products
+
+you can also pass 3 parameters along with url as below :
+1. http://localhost:8080//v1/products?labelType=ShowWasThenNow 
+2. http://localhost:8080//v1/products?labelType=ShowPercDscount
+3. http://localhost:8080//v1/products?labelType=ShowWasNow (If you don't pass labelType parameter this will apply by default)
