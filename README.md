@@ -23,6 +23,7 @@ Source code details :
 Unit Test and e2e Test:
 1. Basic JUnit test are under src/test/java folder (AppTest.java).
 2. e2e test Using Mockito to test the rest api end 2 end is under src/test/java/ folder (ProductDetailsTest.java).
+  -- e2e test case will hit the api and check for output by validating it as per the expected output by using regex.
 
 Testing API in browser :
 In your browser type below url to check the API. If you see json data, you have succesfully started the project.
