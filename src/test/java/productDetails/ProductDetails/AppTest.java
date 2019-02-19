@@ -16,7 +16,6 @@ import com.springboot.productDetails.service.ProductDetailsServiceImpl;
  */
 public class AppTest {
 	/**
-	 * Rigorous Test :-)
 	 * 
 	 * @throws Exception
 	 */

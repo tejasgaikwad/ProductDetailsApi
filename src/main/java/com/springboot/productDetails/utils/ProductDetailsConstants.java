@@ -14,7 +14,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
-@PropertySource("ProductDetails.properties")
+@PropertySource("classpath:ProductDetails.properties")
 public final class ProductDetailsConstants {
 
 	private static Map<String, String> colorMap = new HashMap<String, String>();
@@ -23,28 +23,6 @@ public final class ProductDetailsConstants {
 	private String colorData;
 
 	public ProductDetailsConstants() {
-		// String colorDetails []= colorData.split("~");
-		// for(String colorDetail: colorDetails)
-		// {
-		// String[] colorWithRGB = colorDetail.split(":");
-		// colorMap.put(colorWithRGB[0], colorWithRGB[1]);
-		// }
-
-		Properties prop = new Properties();
-		ClassLoader loader = Thread.currentThread().getContextClassLoader();
-		InputStream stream = loader
-				.getResourceAsStream("ProductDetails.properties");
-		try {
-			prop.load(stream);
-			String colorDetails[] = ((String) prop.get("COLORS")).split("~");
-			for (String colorDetail : colorDetails) {
-				String[] colorWithRGB = colorDetail.split(":");
-				colorMap.put(colorWithRGB[0], colorWithRGB[1]);
-			}
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 
 	public String getRGB(String colorName) {

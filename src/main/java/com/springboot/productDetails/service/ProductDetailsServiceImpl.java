@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -121,7 +120,7 @@ public class ProductDetailsServiceImpl implements ProductDetailsService {
 			break;
 		// handles all including ShowWasNow
 		default:
-			// ShowWasNow
+			// v
 			builder.append("Was ")
 					.append(getFormattedPrice(product.getPrice().getWas()))
 					.append(", now ")

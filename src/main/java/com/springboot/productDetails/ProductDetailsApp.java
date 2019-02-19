@@ -10,7 +10,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
-@PropertySource("classpath:ProductDetails.properties")
 @EnableAutoConfiguration(exclude = {ErrorMvcAutoConfiguration.class})
 public class ProductDetailsApp {
 	@Autowired
